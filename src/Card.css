@@ -1,0 +1,76 @@
+.card {
+    width: 50%;
+    align-items: center;
+}
+
+
+.digital {
+    width: 90px;
+}
+
+
+.chip {
+    height: 40px;
+    width: 70px;
+    position: relative;
+    left: 80%;
+    bottom: 20px;
+    
+}
+
+
+
+.card_number {
+    margin-top: 30px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+    display: flex;
+}
+
+.card_holder {
+    color: white;
+}
+
+.name_v1 {
+    color: white;
+    font-weight: 600;
+}
+
+
+.expiration {
+    font-weight: 600;
+}
+
+
+
+.card label {
+    font-size: .7rem;
+}
+
+
+
+.card_info {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    color: white;
+}
+
+ 
+
+
+
+.creditcard {
+    width: 360px;
+    height: 230px;
+    margin: 0 auto;
+    background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgb(0,140,177,1) 35%, rgba(0,29,125,1)
+     100%);
+    border: 1px solid rgba(0,0,0,.3);
+    border-radius: 15px;
+    padding: 20px; 
+    align-items: center;
+}
+
+

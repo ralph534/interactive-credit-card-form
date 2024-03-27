@@ -1,25 +1,29 @@
-import logo from './logo.svg';
+import React, {useState} from 'react'
 import './App.css';
+import IMG from './images/digitalLogo-removebg-preview.png'
+import IMG2 from './images/cardchip-removebg-preview.png'
+import IMG3 from './images/Bluecheck-removebg-preview.png'
+import CreditCardForm from './CreditCardForm';
+import Card from './Card';
 
 function App() {
+
+  const [confirmed, setConfirmed] = useState(false);
+  const [name, setName] = useState("");
+  const [cardNum, setCardNum] = useState("");
+  const [expo, setExpo] = useState("");
+  const [cvv, setCvv] = useState("");
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  <div className="container">
+    <section className="ui">
+      <CreditCardForm/>
+    </section>
+  </div>
   );
 }
+
+
 
 export default App;
